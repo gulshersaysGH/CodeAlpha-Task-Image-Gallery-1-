@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="main-image">
+            <img id="current-image" src="image5.png" alt="Gallery Image">
+        </div>
+        <div class="thumbnails">
+            <img class="thumbnail" src="iamge1.png" alt="Image 1" onclick="changeImage('image1.jpg')">
+            <img class="thumbnail" src="image2.png" alt="Image 2" onclick="changeImage('image2.jpg')">
+            <img class="thumbnail" src="image3.png" alt="Image 3" onclick="changeImage('image3.jpg')">
+            <img class="thumbnail" src="image4.png" alt="Image 4" onclick="changeImage('image4.jpg')">
+            <img class="thumbnail" src="image5.png" alt="Image 5" onclick="changeImage('image5.jpg')">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
